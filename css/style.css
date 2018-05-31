@@ -1,0 +1,1074 @@
+body {
+	background-color: #f7f7f7 !important;
+}
+.top-social-media {
+	background-color: #a60000;
+	height: 40px;
+}
+.top-social-media a:hover {
+	color: #ccc;
+}
+
+.top-empty {
+	background-color: #a60000;
+	height: 40px;
+}
+.top-number {
+	background-color: #a60000;
+	height: 40px;
+}
+.top-email {
+	background-color: #a60000;
+	height: 40px;
+}
+
+
+#topnavbar {
+  z-index: 55 !important;
+}
+
+/* Page content */
+.topcontent {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .topcontent {
+  padding-top: 60px;
+}
+
+.navbar {
+  border-radius: 0px !important;
+  border:none !important;
+	box-shadow: 5px 0px 5px 0px #4a4a4a !important;
+	margin-bottom: 0px;
+}
+
+
+.navbar-nav {
+	margin-left: 80px !important;
+		color: #000 !important;
+
+}
+
+@media screen and (max-width: 1039px) and (min-width: 768px) {
+	.navbar-nav {
+	margin-top: 0px !important;
+}
+	.navbar-brand {
+	padding-top: 0px !important;
+	height: auto !important;
+	width: 120px !important;
+}
+.navbar-nav li {
+	padding-top: 0px !important;
+	font-size: 11px !important;
+}
+.navbar-form {
+	display: none;
+}
+}
+
+.navbar-nav li {
+	font-size: 13px;
+	margin-top: 14px !important;
+	background-color: #ccc !important;
+	color: #000 !important;
+}
+
+.navbar-nav li a:hover {
+	color: #e1e1e1;
+	font-weight: 500 !important;
+}
+.navbar-nav li a:link {
+	color: #000 !important;
+}
+.navbar-nav li a:active {
+	color: #000 !important;
+}
+
+
+.active {
+	color: #a60000 !important;
+}
+
+.navbar-brand {
+	height: auto !important;
+	width: 140px !important;
+	padding-left: 20px !important;
+}
+.navbar-brand:hover {
+	color: #a60000;
+}
+
+
+.dropdown-menu li a:hover {
+	background-color: #ccc !important;
+	color: #5d5d5d !important;
+}
+
+.social-menu {
+	margin-right: 5px;
+	float: right;
+	width: 280px;
+	height: 50px;
+	margin-top: 22px;
+}
+
+.social-menu ul {
+	border-top: 1px solid #e6e6e7;
+	border-bottom: 1px solid #e6e6e7;
+	width: 280px;
+	height: 35px;
+
+}
+.social-menu ul li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 10px;
+}
+.slider {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+}
+
+
+.cardrows {
+	background-color: #f7f7f7;
+}
+
+.blue {
+	background-color: #f7f7f7;
+}
+
+.boxvideo {
+	width: 250px;
+	height: 250px;
+	background-color: #fbfbfb;
+		margin-top: 0px;
+	margin-left: 60px;
+	margin-right: 0px;
+	  box-shadow: 0px 0px 9px 0px rgba(109, 109, 109, 0.294);
+	  transition: all 1.5s;
+}
+
+.boxvideo:hover {
+box-shadow: 0px 0px 37px 0px #c0bebe;
+
+}
+
+.yellow {
+	background-color: #f7f7f7;
+}
+.boxdevotionals {
+	width: 250px;
+	height: 250px;
+	transition: all 1.5s;
+	background-color: #fbfbfb;
+	margin-top: 0px;
+	margin-left: 30px;
+	margin-right: 0px;
+	  box-shadow: 0px 0px 9px 0px rgba(109, 109, 109, 0.294);
+
+}
+
+.boxdevotionals:hover {
+	box-shadow: 0px 0px 27px 0px #c0bebe;
+}
+.brown {
+	background-color: #f7f7f7;
+}
+.boxself-esteem {
+	width: 250px;
+	height: 250px;
+	transition: all 1.5s;
+	background-color: #fbfbfb;
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 10px;
+	  box-shadow: 0px 0px 9px 0px rgba(109, 109, 109, 0.294);
+
+}
+.boxself-esteem:hover {
+		box-shadow: 0px 0px 27px 0px #c0bebe;
+}
+.green {
+	background-color: #f7f7f7;
+}
+.boxonlinecourses {
+	width: 250px;
+	height: 250px;
+	transition: all 1.5s;
+	background-color: #fbfbfb;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 30px;
+	box-shadow: 0px 0px 9px 0px rgba(109, 109, 109, 0.294);
+
+}
+
+.boxonlinecourses:hover {
+		box-shadow: 0px 0px 27px 0px #c0bebe;
+}
+
+/*media screen start*/
+@media screen and (max-width: 480px) and (min-width: 300px) {
+    .boxself-esteem {
+	margin: 5px 50px;
+	}
+	.boxonlinecourses {
+	margin: 5px 50px;
+	}
+	.boxdevotionals {
+	margin: 5px 50px;	
+	}
+	.boxvideo {
+	margin: 5px 50px;		
+	}
+
+	.boxheader h2 {
+	margin-top: 0px;
+}
+.sticky {
+  position:static;
+  top: 0;
+  width: 100%
+}
+#mycarousel {
+	margin-bottom: 0px !important;
+}
+.carousel{
+	height: 230px !important;
+}
+.carousel img {
+height: 230px !important;
+}
+.carousel-caption h4 {
+	font-size: 12px !important;
+}
+.carousel-caption h4:first-child {
+	animation-delay: 3s !important;
+}
+
+.carousel-caption h4 {
+	animation-delay: 2s !important;
+}
+
+.carousel-caption p {
+	font-size: 8px !important;
+}
+
+.btn-lg {
+	width: 40px !important;
+	height: 10px !important;
+	font-size: 8px !important;
+	text-align: center !important;
+}
+.redbarheader h1 {
+	font-size: 16px !important;
+}
+.redbarheader p {
+	font-size: 14px !important;
+}
+.devotionals_features {
+	font-size: 12px !important;
+}
+
+.round {
+	float: left;
+	margin-left: 50px;
+}
+.bartwo {
+	margin-left: 0px !important;
+}
+
+.quotes {
+	display: none !important;
+}
+
+#showcase img {
+
+  width:100px; 
+  height:40px;
+  padding-left: 0px !important;
+}
+#showcase p {
+	padding-left: 4px !important
+}
+
+.suscribe p {
+	font-size: 12px;
+}
+.top-social-media {
+	display: none !important;
+}
+.top-empty {
+	display: none;
+}
+.top-number {
+	display: none;
+}
+.top-email {
+	display: none;
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 400px !important; 
+    height: 220px !important;
+}
+.changeemail {
+	width:200px !important;
+	}
+.page-blog {
+	background-color: #313131;
+	width: 100% !important;
+	margin-top: 30px !important;
+	margin-left: 0px !important;
+	box-shadow: 0px 0px 9px 0px rgba(109, 109, 109, 0.294) !important;
+	color: #e0e0e0 !important;
+}
+
+.navbar-brand {
+	width: 100px !important;
+	height: 60px !important;
+}
+}
+/*media screen end*/
+
+/*media screen start*/
+@media screen and (max-width: 599px) and (min-width: 481px) {
+.navbar-brand {
+	width: 100px !important;
+	height: 60px !important;
+}
+    .boxself-esteem {
+	margin: 20px 150px;
+	}
+	.boxonlinecourses {
+	margin: 20px 150px;
+	}
+	.boxdevotionals {
+	margin: 20px 150px;	
+	}
+	.boxvideo {
+	margin: 20px 150px;		
+	}
+
+.quotes {
+	display: none !important;
+}
+
+.round {
+	float: left;
+	margin-left: 50px;
+}
+.bartwo {
+	margin-left: 0px !important;
+}
+.top-social-media {
+	display: none !important;
+}
+.top-empty {
+	display: none;
+}
+.top-number {
+	display: none;
+}
+.top-email {
+	display: none;
+}
+.page-blog {
+	background-color: #313131;
+	width: 100% !important;
+	margin-top: 30px !important;
+	margin-left: 0px !important;
+	box-shadow: 0px 0px 9px 0px rgba(109, 109, 109, 0.294) !important;
+	color: #e0e0e0 !important;
+}
+
+
+}
+
+
+@media screen and (max-width: 700px) and (min-width: 600px) {
+    .boxself-esteem {
+	margin: 20px 200px;
+	}
+	.boxonlinecourses {
+	margin: 20px 200px;
+	}
+	.boxdevotionals {
+	margin: 20px 200px;	
+	}
+	.boxvideo {
+	margin: 20px 200px;		
+	}
+.quotes {
+	display: none !important;
+}
+
+.round {
+	float: left;
+	margin-left: 50px;
+}
+.bartwo {
+	margin-left: 0px !important;
+}
+.page-blog {
+	background-color: #313131;
+	width: 100% !important;
+	margin-top: 30px!important;
+	margin-left: 0px !important;
+	box-shadow: 0px 0px 9px 0px rgba(109, 109, 109, 0.294) !important;
+	color: #e0e0e0 !important;
+}
+.navbar-brand {
+	width: 100px !important;
+	height: 80px !important;
+}
+}
+
+@media screen and (max-width: 991px) and (min-width: 700px) {
+    .boxself-esteem {
+	margin: 50px 100px;
+	}
+	.boxonlinecourses {
+	margin: 50px 100px;
+	}
+	.boxdevotionals {
+	margin: 50px 100px;	
+	}
+	.boxvideo {
+	margin: 50px 100px;		
+	}
+.navbar-brand {
+	width: 100px !important;
+	height: 50px !important;
+}
+
+.round {
+	float: left;
+	margin-left: 50px;
+}
+.bartwo {
+	margin-left: 0px !important;
+}
+.page-blog {
+	background-color: #313131;
+	width: 100% !important;
+	margin-top: 30px!important;
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+	box-shadow: 0px 0px 9px 0px rgba(109, 109, 109, 0.294) !important;
+	color: #e0e0e0 !important;
+}
+}
+
+
+@media screen and (max-width: 1250px) and (min-width: 1200px) {
+    .boxself-esteem {
+	margin: 0px 20px;
+	}
+	.boxonlinecourses {
+	margin: 0px 20px;
+	}
+	.boxdevotionals {
+	margin: 0px 20px;	
+	}
+	.boxvideo {
+	margin: 0px 20px;	
+	}
+	.page-blog {
+	background-color: #313131;
+	width: 100% !important;
+	margin-top: 30px!important;
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+	box-shadow: 0px 0px 9px 0px rgba(109, 109, 109, 0.294) !important;
+	color: #e0e0e0 !important;
+}
+.navbar-brand {
+	width: 100px !important;
+	height: 80px !important;
+}
+
+.navbar-form {
+	display: none;
+}
+
+}
+
+@media screen and (max-width: 1190px) and (min-width: 1000px) {
+    .boxself-esteem {
+	margin: 50px 130px;
+	}
+	.boxonlinecourses {
+	margin: 50px 130px;
+	}
+	.boxdevotionals {
+	margin: 0px 130px;	
+	}
+	.boxvideo {
+	margin: 0px 130px;	
+	}
+.navbar-brand {
+	width: 100px !important;
+	height: 80px !important;
+}
+
+.navbar-form {
+	display: none;
+}
+.page-blog {
+	background-color: #313131;
+	width: 100% !important;
+	margin-top: 30px!important;
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+	box-shadow: 0px 0px 9px 0px rgba(109, 109, 109, 0.294) !important;
+	color: #e0e0e0 !important;
+}
+
+}
+/*media screen end*/
+
+.boxheader {
+	margin-top: 100px;
+}
+.boxheader h2 {
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 30px;
+	font-weight: bold;
+	opacity: 0.7;
+	font-family: cursive;
+}
+.devotionals_features {
+  width: 100%;
+  height: 680px;
+  background-color: #282828;
+  margin-top: 100px;
+  color: #fff;
+}
+
+/*media screen start*/
+@media screen and (max-width: 480px) and (min-width: 300px) {
+	.devotionals_features {
+		height: 1680px;
+	}
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+	.devotionals_features {
+		height: 1500px;
+	}
+}
+
+
+@media screen and (max-width: 700px) and (min-width: 600px) {
+	.devotionals_features {
+		height: 1550px;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 700px) {
+	.devotionals_features {
+		height: 1200px;
+	}
+}
+
+
+@media screen and (max-width: 1250px) and (min-width: 1200px) {
+	.devotionals_features {
+		height: 680px;
+	}
+}
+
+@media screen and (max-width: 1190px) and (min-width: 1000px) {
+	.devotionals_features {
+		height: 800px;
+	}
+}
+/*media screen end*/
+.redbarheader {
+  margin-top: 60px;
+}
+
+.redbarheader h1 {
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  font-family: calibri;
+}
+.redbarheader p {
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-bottom: 60px;
+  opacity: 0.9;
+}
+
+.barone {
+  padding-bottom: 20px;
+}
+
+.bartwo {
+  margin-left: 50px;
+  padding-bottom: 20px;
+}
+.barone p {
+  opacity: 0.8;
+}
+.bartwo p {
+  opacity: 0.8;
+}
+
+.round {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  margin-top: 30px;
+  background-color: transparent;
+}
+
+
+.contact {
+  height: auto;
+  background-color: #003cff;
+    box-shadow: 0px 0px 27px 0px #c0bebe;
+    margin-top: 30px;
+    clear: both;
+}
+
+.controlinput {
+}
+
+
+.social-media {
+  margin-top: 0px;
+}
+
+.suscribe {
+  margin-left: 60px;
+  width: 800px;
+  height: 500px;
+  color: #fff;
+}
+.suscribe h1 {
+	margin-top: 150px;
+  font-weight: bold;
+}
+.emailbtn {
+  margin-top: 0px;
+}
+.suscribeemail {
+  width: 600px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.grey {
+  background-color:#cccccc;
+  height: 480px;
+  width: 400px;
+  margin-right: 100px;
+}
+.quotes {
+  height: auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 27px 0px #c0bebe;
+  margin-top: 30px;
+}
+
+
+
+
+#showcase {
+  background-color: white;
+  margin-top: 30px;
+  box-shadow: 0px 0px 27px 0px #c0bebe;
+  height: auto;
+}
+#showcase h1 {
+  padding-top: 100px;
+  margin-bottom: 20px;
+  padding-left: 10px !important;
+}
+#showcase p {
+		padding-left: 10px !important
+}
+#showcase img {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  width:200px; 
+  height:400px;
+
+}
+
+.showcase-right h4 {
+	padding-top: 40px;
+	padding-left: 10px;
+} 
+
+.showcase-btn {
+  margin-bottom: 80px;
+  margin-left: 10px;
+}
+.imagealign {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+}
+.imagealign img {
+  border-radius: 50%;
+  padding-left: 30px;
+}
+.txtalign {
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.txtalign p {
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.showcase-btn {
+  margin-top: 40px;
+}
+.firstshow {
+  margin-top: 80px;
+}
+
+footer {
+  background-color: #000;
+}
+
+.foot-social-media {
+	height: 350px;
+	background-color: #000;
+}
+.foot-social-media h4 {
+	color: #fff;
+}
+
+
+.mediatable td {
+	padding: 5px;
+	color: #fff;
+	opacity: 0.8;
+}
+.bottomnav {
+	background-color: #000;
+	padding-top: 40px;
+	height: 350px;
+}
+.bottomnav ul {
+  float: left;
+  margin-left: 50px;
+  padding-top: 0px;
+  margin-top: 20px;
+}
+.bottomnav ul li {
+  display: block;
+  list-style-type: none;
+  color: #fff;
+  width: 160px;
+  height: 80px
+  opacity:0.8;
+  margin-top: 0px;
+  padding-top: 8px;
+  padding-left: 20px;
+  border-left: 2px solid #ffd74d;
+}
+.bottomnav ul li a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+}
+.bottomnav ul li a:hover {
+  color: #fff;
+  opacity: 10;
+}
+.copyright p {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 12px;
+}
+.copyright p a {
+  text-decoration: none;
+  color: #fff;
+}
+.marvis {
+  border-left: 1px solid #ccc;
+}
+.copyright {
+	background-color: #000;
+	height: 350px;
+}
+.copyright2 {
+	padding-top: 150px;
+}
+
+
+ /* Modal Content/Box */
+ .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px; 
+    height: 200px;
+}
+
+.changeemail {
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+    width: 200px;
+}
+
+.changeemail:focus {
+  width: 300px;
+}
+/* The Close Button */
+.close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+#block_ads{
+	width: 100%;
+    height: 100px;
+    background-color: $fff;
+}
+
+#block {
+    width: 100%;
+    height: 100px;
+    background:#343434;
+    display: none;
+}
+#blocktext{
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	font-size: 36px;
+	padding-top: 18px;
+	font-family: sans-serif;
+	opacity: 0.8;
+}
+
+
+.boxes {
+	margin-bottom: 80px;
+}
+
+
+/*styling for pages */
+
+.page-blog {
+	background-color: #313131;
+	width: 900px;
+	margin-top: 30px;
+	margin-left: 50px;
+	box-shadow: 0px 0px 9px 0px rgba(109, 109, 109, 0.294);
+	color: #e0e0e0;
+}
+
+
+.page-sidebar {
+	height: 700px;
+	width: 320px;
+	float: right;
+	margin-right: 40px;
+}
+
+.bar1 {
+	width: 100%;
+	background-color: #a60000;
+	height: 200px;
+}
+
+.bar2 {
+	width: 100%;
+	background-color: #e2e2e2;
+	margin-top: 40px;
+	height: 200px;
+}
+.bar3 {
+	width: 100%;
+	background-color: #000;
+	margin-top: 40px;
+	height: 80px;
+	opacity: 0.8;
+}
+
+.newbtn {
+	border: none;
+	width: 120px;
+	height: 30px;
+	background-color: #000;
+	color: #fff;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+.bar1 h3 {
+	color: #fff;
+	padding-top: 70px;
+	padding-left: 30px;
+}
+
+.newbtn:hover {
+	box-shadow: 5px 0px 20px 0px rgba(109, 109, 109, 0.294);
+
+}
+
+.bar2 h3 {
+	padding-left: 30px;
+	padding-top: 5px;
+}
+.bar2 ul li {
+	display: block;
+	border: 1px solid #ccc;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+}
+.bar2 ul {
+	padding-left: 0px;
+}
+.Sustained-green {
+	color: #fff;
+	background-color: green;
+	padding: 10px;
+}
+.payment-options {
+	background-color: pink;
+	color: #000;
+	
+}
+.payment tr td {
+	padding: 10px;
+}
+
+
+.carousel-caption h4 {
+	animation-delay: 0s !important;
+	animation-duration: 2s !important;
+}
+.carousel-caption p {
+	animation-delay: 2s !important;
+	animation-duration: 2s !important;
+	padding-bottom: 10px !important;
+}
+
+
+/*self esteem slider*/
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fader {
+  -webkit-animation-name: fader;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fader;
+  animation-duration: 3.5s;
+}
+
+
+@-webkit-keyframes fader {
+  from {opacity: .1}
+  to {opacity: 1}
+}
+
+@keyframes fader {
+  from {opacity: .1}
+  to {opacity: 1}
+
