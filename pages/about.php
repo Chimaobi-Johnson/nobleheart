@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="file:///C|/wamp64/favicon.ico">
+  <title>NOBLEHEART</title>
+  <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+
+    <link href="../css/w3.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="file:///C|/wamp64/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+<header>
+    <div class="container-fluid">
+        <div class="row">
+             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 top-social-media">
+                 <img src="../img/png/fbklight.png" width="30px" height="20px" style="margin-top: 10px">
+                 <img src="../img/png/lovelight.png" width="30px" height="20px" style="margin-top: 10px">
+                 <img src="../img/png/linklight.png" width="30px" height="20px" style="margin-top: 10px">
+                 <img src="../img/png/pintlight.png" width="30px" height="20px" style="margin-top: 10px">
+                 <img src="../img/png/twitlight.png" width="30px" height="20px" style="margin-top: 10px">
+                 <img src="../img/png/gmaillight.png" width="30px" height="20px" style="margin-top: 10px">
+             </div>
+             <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 top-empty"></div>
+             <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 top-number">
+                <table>
+                    <tr>
+                        <td><img src="../img/png/contactlight.png" style="margin-bottom: 0px" width="30px" height="20px"></td>
+                        <td>
+                 <p style="padding-top: 10px; color: #fff; font-size: 12px;">07012191531</p></td>
+             </tr>
+             </table>
+             </div>
+             <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 top-email">
+                <table>
+                    <tr>
+                        <td><img src="../img/png/gmaillight.png" style="margin-bottom: 0px" width="30px" height="20px"></td>
+                        <td> <p style="padding-top: 10px; color: #fff; font-size: 12px">G-MAIL</p></td>
+                    </tr>
+                </table>
+                
+             </div>
+        </div>
+    </div>
+</header>
+
+
+
+<div id="topnavbar">
+    <div class="navbar-wrapper">
+
+  <nav class="navbar" role="navigation">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#example-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <img class="navbar-brand" src="../img/png/nblogo.jpg" width="100px" height="60px" >
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+             <ul class="nav navbar-nav">
+                <li><a href="../index.php">HOME</a></li>
+                <li class="active"><a href="about.php">ABOUT</a></li>
+                <li><a id="myBtn" href="#">LOVE DEVOTIONALS</a></li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">ONLINE COURSES<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                <li><a href="#">Personal Courses</a></li>
+                <li><a href="#">EJB</a></li>
+                <li><a href="#">Jasper Report</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+                </li>
+                <li><a href="healthy_self_esteem.php">HEALTHY SELF-ESTEEM</a></li>
+                <li><a href="event_corner.php">EVENTS</a></li>
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                OTHERS <b class="caret"></b>
+                </a>
+            <ul class="dropdown-menu">
+                <li><a href="#">jmeter</a></li>
+                <li><a href="#">EJB</a></li>
+                <li><a href="#">Jasper Report</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+            </li>
+            </ul>
+            <div>
+                <form class="navbar-form" role="search">
+                <div class="form-group">
+                <input type="text" class="form-control searchinput" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Search</button>
+                </form>
+                </div>
+            </div>
+ 
+        </nav>
+</div>
+        </div>
+
+        <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <form method="post" action="devotionals.php" name="myform" onsubmit="return(validate());">
+        <h2>Your Email</h2>
+        <p>In order to access Daily Love Devotionals Your Email is Required</p>
+        <label>Email</label>
+        <input type="email" name="email" class="changeemail">
+        <button class="btn btn-success btn-sm" type="submit" value="submit">Submit</button>
+    </form>
+  </div>
+
+</div>     
+
+<section class="page-content">
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 page-blog">
+    
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 page-sidebar">
+      <div class="row">
+      <div class="bar1">
+        <h3>Anonymous Counselling</h3>
+        <button class="newbtn">Get Started</button>
+      </div>
+      <div class="bar2">
+        <h3>Online Courses</h3>
+          <ul>
+            <li><a href="#">Making Your Relationship Work</a></li>
+            <li><a href="#">Online Course Two</a></li>
+            <li><a href="#">Online Course three</a></li>
+            <li><a href="#">Online Course four</a></li>
+          </ul>
+      </div>
+      <div class="bar3">
+        <h3 style="font-size: 18px; color: #fff; padding:10px; font-weight: bold; opacity: 0.9;">Have a Message for Us at NobleHeart?<br /><span style="color:#a60000"><a href="#">Contact Us</a></span></h3>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+
+  <section class="cardrows">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 boxheader">
+                    <h2>EXPLORE WHAT WE HAVE TO OFFER</h2>
+                </div>
+            </div>
+<div class="row blocks">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 blue">
+<div class="boxvideo">
+    <img src="../img/png/vidblack.jpg" width="250px" height="200px">
+    <h5 style="text-align: center; font-weight: bold; opacity: 0.8; padding-top: 8px">VIDEOS</h5>
+</div>
+            </div>
+
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 yellow">
+    <div class="boxdevotionals">
+        <img src="../img/loved.jpg" width="250px" height="200px">
+        <h5 style="text-align: center; font-weight: bold; opacity: 0.8; padding-top: 8px">RELATIONSHIP TALK</h5>
+    </div>
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 brown">
+    <div class="boxself-esteem">
+        <img src="../img/png/relationships.png" width="250px" height="200px">
+        <h5 style="text-align: center; font-weight: bold; opacity: 0.8; padding-top: 8px">COUNSELLING</h5>
+    </div>
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 green">
+   <div class="boxonlinecourses">
+       <img src="../img/onlinecourses.jpg" width="250px" height="200px">
+       <h5 style="text-align: center; font-weight: bold; opacity: 0.8; padding-top: 8px">ONLINE COURSES</h5>
+   </div>
+</div>
+</div>
+        </section>
+
+
+
+<div class="block"></div>
+
+        <footer>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 bottomnav">
+            <ul>
+               <li><a href="index.php">Home</li>
+               <li><a href="about.php">About</li>
+               <li><a href="#">Contact</li>
+               <li><a href="devotionals.php">Daily Love Devotionals</li>
+               <li><a href="healthy_self_esteem">Healthy Self Esteem</li>
+               <li><a href="event_corner">Events</li>
+               <li><a href="online_course.php">Online Courses</li> 
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 foot-social-media">
+              <h4>FOLLOW US</h4><br />
+              <table class="mediatable">
+                  <tr>
+                    <td><img src="../img/png/facebook.png" width="30px" height="30px" alt="facebook"></td>
+                    <td>FACEBOOK</td>
+                  </tr>
+                  <tr>
+                    <td><img src="../img/png/instagram.png" width="30px" height="30px" alt="facebook"></td>
+                    <td>INSTAGRAM</td>
+                  </tr>
+                  <tr>
+                    <td><img src="../img/png/twitter.png" width="30px" height="30px" alt="twitter"></td>
+                    <td>TWITTER</td>
+                  </tr>
+                  <tr>
+                    <td><img src="../img/png/youtube.png" width="30px" height="30px" alt="youtube"></td>
+                    <td>YOUTUBE</td>
+                  </tr>
+                  <tr>
+                    <td><img src="../img/png/whatsapp.png" width="30px" height="30px" alt="whatsapp"></td>
+                    <td>WHATSAPP</td>
+                  </tr>
+                  <tr>
+                    <td><img src="../img/png/linkedin.png" width="30px" height="30px" alt="linkedIn"></td>
+                    <td>LINKEDIN</td>
+                  </tr>
+                  <tr>
+                    <td><img src="../img/png/pinterest.png" width="30px" height="30px" alt="pinterest"></td>
+                    <td>PINTEREST</td>
+                  </tr>
+              </table>
+
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 copyright">
+             <p class="copyright2">Copyright&copy;2018<span style="color: #c33a1f">NobleHeart</span>.All Rights Reserved<br /><br />
+              Powered by <i>MarvisConcepts</i></p>
+          </div>
+          
+        </footer>
+
+
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/javascript.js" type="text/javascript"></script>
+  </body>
+</html>
